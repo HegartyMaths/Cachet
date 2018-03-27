@@ -81,6 +81,7 @@ return [
         'manage'      => [
             'no_subscriptions' => 'Actualmente estás suscrito a todas las actualizaciones.',
             'my_subscriptions' => 'Actualmente estás suscrito a las siguientes actualizaciones.',
+            'manage_at_link'   => 'Manage your subscriptions at :link',
         ],
         'email' => [
             'subscribe'          => 'Suscríbete para recibir actualizaciones por correo electrónico.',
@@ -117,9 +118,18 @@ return [
         ],
     ],
 
+    // Meta descriptions
+    'meta' => [
+        'description' => [
+            'incident'  => 'Details and updates about the :name incident that occurred on :date',
+            'schedule'  => 'Details about the scheduled maintenance period :name starting :startDate',
+            'subscribe' => 'Subscribe to :app in order to receive updates of incidents and scheduled maintenance periods',
+            'overview'  => 'Mantente informado con las últimas actualizaciones de servicio de :app.',
+        ],
+    ],
+
     // Other
     'home'            => 'Inicio',
-    'description'     => 'Mantente informado con las últimas actualizaciones de servicio de :app.',
     'powered_by'      => 'La página de estado de :app está proporcionada por <a href="https://cachethq.io">Cachet</a>.',
     'timezone'        => 'Los horarios son mostrados en :timezone.',
     'about_this_site' => 'Acerca de este sitio',

@@ -81,6 +81,7 @@ return [
         'manage'      => [
             'no_subscriptions' => '您目前已訂閱所有的更新。',
             'my_subscriptions' => '您目前已安裝下列更新',
+            'manage_at_link'   => 'Manage your subscriptions at :link',
         ],
         'email' => [
             'subscribe'          => '訂閱 電子郵件 系統狀態更新。',
@@ -117,9 +118,18 @@ return [
         ],
     ],
 
+    // Meta descriptions
+    'meta' => [
+        'description' => [
+            'incident'  => 'Details and updates about the :name incident that occurred on :date',
+            'schedule'  => 'Details about the scheduled maintenance period :name starting :startDate',
+            'subscribe' => 'Subscribe to :app in order to receive updates of incidents and scheduled maintenance periods',
+            'overview'  => '始終保持對 :app 服務狀態的關注。',
+        ],
+    ],
+
     // Other
     'home'            => '首頁',
-    'description'     => '始終保持對 :app 服務狀態的關注。',
     'powered_by'      => '由 <a href="https://cachethq.io" class="links">Cachet</a> 提供。',
     'timezone'        => 'Times are shown in :timezone.',
     'about_this_site' => '關於此站點',

@@ -81,6 +81,7 @@ return [
         'manage'      => [
             'no_subscriptions' => 'Acum eşti abonat la toate actualizările.',
             'my_subscriptions' => 'Acum eşti abonat la următoarele actualizări.',
+            'manage_at_link'   => 'Manage your subscriptions at :link',
         ],
         'email' => [
             'subscribe'          => 'Abonează-te la actualizări prin email.',
@@ -117,9 +118,18 @@ return [
         ],
     ],
 
+    // Meta descriptions
+    'meta' => [
+        'description' => [
+            'incident'  => 'Details and updates about the :name incident that occurred on :date',
+            'schedule'  => 'Details about the scheduled maintenance period :name starting :startDate',
+            'subscribe' => 'Subscribe to :app in order to receive updates of incidents and scheduled maintenance periods',
+            'overview'  => 'Fii la curent cu cele mai recente actualizări ale serviciilor pentru :app.',
+        ],
+    ],
+
     // Other
     'home'            => 'Acasă',
-    'description'     => 'Fii la curent cu cele mai recente actualizări ale serviciilor pentru :app.',
     'powered_by'      => 'Cu sprijinul <a href="https://cachethq.io" class="links">Cachet</a>.',
     'timezone'        => 'Orele sunt afișate după fusul orar :timezone.',
     'about_this_site' => 'Despre acest Site',

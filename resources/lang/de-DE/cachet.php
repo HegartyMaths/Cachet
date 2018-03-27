@@ -81,6 +81,7 @@ return [
         'manage'      => [
             'no_subscriptions' => 'Du hast im Augenblick alle Updates abonniert.',
             'my_subscriptions' => 'Du hast im Augenblick folgende Updates abonniert.',
+            'manage_at_link'   => 'Manage your subscriptions at :link',
         ],
         'email' => [
             'subscribe'          => 'Aktualisierungen per E-Mail abonnieren.',
@@ -117,9 +118,18 @@ return [
         ],
     ],
 
+    // Meta descriptions
+    'meta' => [
+        'description' => [
+            'incident'  => 'Details und Aktualisierung über den :name Vorfall, die am :date aufgetreten sind',
+            'schedule'  => 'Details zu den geplanten Wartungszeitraum :name Beginn ab :startDate',
+            'subscribe' => 'Abonniere :app um Updates von Vorfällen und geplanten Wartungszeiten zu erhalten',
+            'overview'  => 'Bleiben sie auf dem Laufenden mit den neuesten Service-Updates von :app.',
+        ],
+    ],
+
     // Other
     'home'            => 'Startseite',
-    'description'     => 'Bleiben sie auf dem Laufenden mit den neuesten Service-Updates von :app.',
     'powered_by'      => 'Powered by <a href="https://cachethq.io" class="links">Cachet</a>.',
     'timezone'        => 'Uhrzeiten werden in :timezone angezeigt.',
     'about_this_site' => 'Über diese Seite',

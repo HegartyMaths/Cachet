@@ -81,6 +81,7 @@ return [
         'manage'      => [
             'no_subscriptions' => 'Du prenumererar på alla uppdateringar.',
             'my_subscriptions' => 'Du prenumererar på följande uppdateringar.',
+            'manage_at_link'   => 'Manage your subscriptions at :link',
         ],
         'email' => [
             'subscribe'          => 'Prenumerera på epost-uppdateringar.',
@@ -117,9 +118,18 @@ return [
         ],
     ],
 
+    // Meta descriptions
+    'meta' => [
+        'description' => [
+            'incident'  => 'Details and updates about the :name incident that occurred on :date',
+            'schedule'  => 'Details about the scheduled maintenance period :name starting :startDate',
+            'subscribe' => 'Subscribe to :app in order to receive updates of incidents and scheduled maintenance periods',
+            'overview'  => 'Håll dig uppdaterad med de senaste service-uppdateringarna från :app.',
+        ],
+    ],
+
     // Other
     'home'            => 'Hem',
-    'description'     => 'Håll dig uppdaterad med de senaste service-uppdateringarna från :app.',
     'powered_by'      => 'Powered by <a href="https://cachethq.io" class="links">Cachet</a>.',
     'timezone'        => 'Tider visas i :timezone.',
     'about_this_site' => 'Om sidan',

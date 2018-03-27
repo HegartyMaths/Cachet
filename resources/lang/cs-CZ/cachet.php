@@ -81,6 +81,7 @@ return [
         'manage'      => [
             'no_subscriptions' => 'Aktuálně jsi přihlášen(a) ke všem upozorněním.',
             'my_subscriptions' => 'Aktuálně jsi přihlášen(a) k následujícím upozorněním.',
+            'manage_at_link'   => 'Manage your subscriptions at :link',
         ],
         'email' => [
             'subscribe'          => 'Přihlásit se k zasílání upozornění e-mailem.',
@@ -117,9 +118,18 @@ return [
         ],
     ],
 
+    // Meta descriptions
+    'meta' => [
+        'description' => [
+            'incident'  => 'Details and updates about the :name incident that occurred on :date',
+            'schedule'  => 'Details about the scheduled maintenance period :name starting :startDate',
+            'subscribe' => 'Subscribe to :app in order to receive updates of incidents and scheduled maintenance periods',
+            'overview'  => 'Držte krok s nejnovějšími aktualizacemi od: app.',
+        ],
+    ],
+
     // Other
     'home'            => 'Hlavní stránka',
-    'description'     => 'Držte krok s nejnovějšími aktualizacemi od: app.',
     'powered_by'      => 'Vytvořeno pomocí <a href="https://cachethq.io" class="links">Cachet</a>.',
     'timezone'        => 'Časová zóna je :timezone.',
     'about_this_site' => 'O tomto webu',
